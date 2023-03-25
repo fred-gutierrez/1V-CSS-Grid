@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  gap: 15px;
+
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+  font-size: 25px;
+}
+
+img {
+  max-width: 200px;
+}

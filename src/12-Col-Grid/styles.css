@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  gap: 15px;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  grid-template-columns: repeat(12, 1fr);
+
+  grid-template-columns: repeat(12, minmax(260px, 1fr));
+
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}

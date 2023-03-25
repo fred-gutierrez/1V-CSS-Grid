@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #df8600;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card:hover {
+  background-color: #ffa136;
+}
